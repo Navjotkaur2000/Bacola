@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  margin: 0 px;
+  padding: 0 px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: larger;
+}
+
+.bg-blue {
+  background-color: #283c94;
+}
+.headerWrapper .top-strip {
+  padding: 8px 0px;
+}
+.container {
+  max-width: 90%;
+}
+.headerWrapper .top-strip p {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+}
+.countryDrop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  width: 150px;
+  min-width: 150px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  padding: 10px 15px;
+  text-align: left !important;
+  font-size: 14px;
+  color: #000;
+}
+
+.countryDrop .name {
+  font-size: 12px;
+  text-transform: capitalize;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.9);
+  font-weight: 700;
+}
+
+.logoImage img {
+  width: 100%;
+}
+
+.countryDrop .label {
+  font-size: 12px;
+  text-transform: capitalize;
+  line-height: 15px !important;
+  color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.countryDrop .info {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Day3 */
+
+.hSearch {
+  width: 60%;
+  height: 60px;
+  background-color: #f3f4f5;
+  padding: 10px;
+  position: relative;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.hSearch input {
+  background-color: transparent;
+  outline: none !important ;
+  color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 40px;
+  border: 0px;
+  padding: 0px 20px !important;
+}
+
+.hSearch button {
+  position: absolute !important;
+  top: 10px !important;
+  right: 15px !important;
+  z-index: 100 !important;
+  min-width: 40px;
+  height: 40px;
+  width: 100px;
+  border-radius: 50%;
+  color: #000;
+}
+
+.hSearch button svg {
+  font-size: 3px;
+}
+
+.angle {
+  color: #000;
+}
+
+/*Day 4  */
+.header {
+  width: 100%;
+  height: auto;
+  padding: 25px 0px;
+}
+
+header .headerSearch button {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  z-index: 100;
+  min-width: 40px !important;
+  height: 40px !important;
+  width: 100px !important;
+  border-radius: 50% !important;
+}
+
+header .part-3 .circle {
+  align-items: center;
+  justify-content: center;
+  min-width: 40px !important;
+  height: 40px !important;
+  width: 40px !important;
+  border-radius: 50% !important;
+  border: 1px solid #f4f0f0;
+  color: #000;
+}
+
+header .part-3 .circle svg {
+  font-size: 20px;
+}
+
+.brand-description {
+  font-size: 13px;
+  color: #3e445a;
+  opacity: 0.5;
+}
+
+.cart .price {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 700;
+}
+.cart button {
+  background: #fff1ee;
+}
+
+.cart button svg {
+  color: #ea2b0f;
+}
+.cart .count {
+  position: absolute;
+  top: -6px;
+  right: -4px;
+  background: #ea2b0f;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  height: 20px;
+  width: 20px;
+}
+
+
+/* day4 */
+
+nav .allCartTab
+{
+    color: white;
+    background-color: #2bbeF9;
+    padding: 10px 15px;
+    border-radius: 50% !important;
+
+}
+
+nav .allCartTab:hover
+{
+    background-color: #2bbefa;
+}
+
+nav .allCartTab .text
+{
+    font-weight: 500;
+}
+
+nav .allCartTab .icon1
+{
+font-size: 20px !important;
+}
+
+nav .allCartTab .icon1
+{
+    font-size: 15px !important;
+}
